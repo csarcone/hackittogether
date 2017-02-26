@@ -3,5 +3,13 @@ body{
   margin: 0;
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/30/Prosthetic_leg_cycling.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+}
+.daily{
+  padding-top: 10%;;
+  color: white;
+}
+li{
+list-style-type: none;
 }
 
