@@ -39,6 +39,9 @@ $('.navbar-collapse ul li a').click(function() {
 $('#rate').click(function(event) {
   alert("Thanks for your rating!")
 });
+$('#comment').click(function(event) {
+  alert("Thanks for your comment!")
+});
 
 })
 
