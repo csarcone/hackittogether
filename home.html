@@ -23,22 +23,55 @@
     </div>
   </div>
  </nav>
-  <div class="container daily">
-  <h1>Daily Goals</h1>
-  <h2>Exercise</h2>
-  <ul>
-  <li>Reps</li>
-  <li>Time</li>
-  </ul>
-  <button id="rate" type="submit" onclick="rate()">Rate it!</button>
+
+  <section class="container daily" id= "daily">
+      <div class="row">
+    <h1>Daily Goals</h1>
+    <h2>Exercise:Ball Rolling</h2>
+    <div class = "information col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <h3>Reps: 3 Repetitions</h3>
+    <h3>Time: 20 minutes</h3>
+    <form>
+    <input type="radio" name="completed" value="yes">Completed<br>
+    <input type="radio" name="completed" value="no"> Not Completed<br>
+    <textarea class="form-control" rows="5" id="comment"></textarea>
+    <button id="rate" type="submit" class ="btn btn-outline-success" onclick="rate()">Comment Here!</button>
+    </form>
+    </div>
+
+  <div class = "video col-xs-6 col-sm-6 col-md-6 col-lg-6" >
+
+  <iframe width="540" height="300" src="https://www.youtube.com/embed/EfxYSYeCtGM" frameborder="0" allowfullscreen></iframe>
   </div>
+</div>
+</section>
+  <br><br><br><br>
+  <section class="container daily" id= "previous" style="margin-top: 10%">
+    <div class="row">
+    <h1>Previous Exercise </h1>
+    <h2>Exercise:Cup-Walking</h2>
+    <div class = "information col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <h3>Reps: 5 Repetitions</h3>
+    <h3>Time: 15 minutes</h3>
+    <h3>Your Comments: </h3>
+    <p>Finished this exercise, felt great!</p>
+    <h3>Doctor's Comments: </h3>
+    <p>Great progress, will test for muscle strength next week.</p>
+    </div>
+    </div>
 
+  </section>
+  <br><br><br><br>
+<section class="container daily" id= "contact">
 
+  </section>
 
-  </nav>
 
 
 
 </body>
-<script src = "script.js"></script>
+  <script src="jquery-3.1.1.min.js"></script>
+  <script src="jquery-ui.min.js"></script>
+  <script src="bootstrap.js"></script>
+  <script src="script.js"></script>
 </html>
