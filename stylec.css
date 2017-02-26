@@ -1,0 +1,60 @@
+.body { 
+  background: url(https://upload.wikimedia.org/wikipedia/commons/3/30/Prosthetic_leg_cycling.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.daily{
+  padding-top: 10%;;
+  color: white;
+}
+li{
+list-style-type: none;
+}
+
+.commenttext{
+    padding:10%;
+}
+
+h1,h2 {
+	font-family: Rochester;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+h4{
+    font-family: Salsa;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	padding: 2% 5%;
+	margin: 0;
+}
+.image{
+	width: 200px;
+	height: 200px;
+	background-size: contain;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;}
+#eximg{
+	background: url("http://www.amputee-coalition.org/military-instep/ten-exercises06.gif");
+	background-repeat: no-repeat;
+}
+#ex2img{
+	 width: 500px;
+	 height: 500px;
+	 background-size: contain;
+	 text-align: center;
+	 margin-right: auto;
+	 margin-left: auto;
+	 background: url("http://www.mdpi.com/sensors/sensors-14-07738/article_deploy/html/images/sensors-14-07738f1-1024.png");
+	 background-repeat: no-repeat;
+}
