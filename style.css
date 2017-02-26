@@ -13,3 +13,7 @@ html {
 li{
 list-style-type: none;
 }
+
+.commenttext{
+    padding:10%;
+}
